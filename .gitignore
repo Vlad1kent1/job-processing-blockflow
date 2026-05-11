@@ -1,0 +1,37 @@
+# --- Node ---
+node_modules/
+**/node_modules/
+
+# --- Nest.js & Backend ---
+backend/dist/
+backend/build/
+# Prisma generated files
+backend/prisma/generated/
+
+# --- Next.js & Frontend ---
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+# TypeScript incremental compilation cache
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Environment & Keys ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Logs & OS files ---
+*.log
+logs/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Databases ---
+*.db
+*.db-journal
